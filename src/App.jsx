@@ -10,16 +10,9 @@ function App() {
   const [featPupId, setFeatPupId] = useState(null);
   
   
-function handleClick() {
+function handleClick() {}
 const featuredPup = puppies.find((pup) => pup.id === featPupId)
 console.log(featuredPup)
-
-}
-  console.log('puppy list', puppyList)
-
-  
-}  
-
   return (
     
       <div className='App'>
@@ -39,8 +32,8 @@ console.log(featuredPup)
             </div>
         )}
       </div>
-         )
-      
+         )}
+        
 
 
 export default App;
